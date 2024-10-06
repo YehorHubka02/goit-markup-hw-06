@@ -176,4 +176,11 @@ a:active {
     letter-spacing: 0.03em;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
