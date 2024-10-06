@@ -1,0 +1,69 @@
+body {
+    font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    color: #434455;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    color: #4D5AE5;
+}
+
+.header-nav-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo,
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+.header-contact-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.order-section {
+    background-color: #2E2F42;
+}
+
+.order-section-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+button:hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+a:hover,
+a:focus {
+    color: #404BBF;
+}
+
+a:active {
+    color: #404BBF;
+}
