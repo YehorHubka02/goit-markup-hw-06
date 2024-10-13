@@ -27,9 +27,11 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.header-nav>li {
     padding: 24px 0;
 }
+
+.header-container {}
 
 .section {
     padding-top: 120px;
