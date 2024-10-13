@@ -27,8 +27,6 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .section {
@@ -131,6 +129,10 @@ a {
 
 .header-nav {
     gap: 40px;
+}
+
+.header-nav>li {
+    padding: 24px 0;
 }
 
 .title {
@@ -350,7 +352,9 @@ a:active {
     row-gap: 48px;
 }
 
-.portfolio-pictures-element {}
+.portfolio-pictures-element {
+    border-top: none;
+}
 
 .portfolio-text {
     border: 1px solid #e7e9fc;
