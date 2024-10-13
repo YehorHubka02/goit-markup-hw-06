@@ -5,17 +5,92 @@ body {
     background-color: #FFFFFF;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+p {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+h1 {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+h2 {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.hidden-element {
+    display: none;
+
+}
+
+.service-container {}
+
+h3 {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+h4 {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+h5 {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+h6 {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+
 .logo {
     color: #4D5AE5;
 }
+
 
 .header-nav-text {
     font-size: 16px;
@@ -23,6 +98,11 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+}
+
+.header-nav>li {
+    padding-left: 40px;
 }
 
 .title {
@@ -49,6 +129,15 @@ a {
 
 .order-section {
     background-color: #2E2F42;
+    padding: 188px 472px;
+}
+
+.order-button {
+    border-radius: 4px;
+    padding: 16px 32px;
+    margin-left: 164px;
+    margin-right: 164px;
+    margin-top: 48px;
 }
 
 .order-section-title {
@@ -58,6 +147,10 @@ a {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
+}
+
+.order-section-container {
+    width: 600px;
 }
 
 .main-button {
@@ -88,6 +181,15 @@ a:active {
 
 .header-address {
     font-style: normal;
+    margin-left: 292px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links>li {
+    padding-left: 40px;
 }
 
 .service-title {
@@ -101,10 +203,69 @@ a:active {
 .service-description {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 8px;
 }
 
 .team-section {
     background-color: #F4F4FD;
+}
+
+.team-container {
+    padding: 120px 0px;
+}
+
+.service-info-container {
+    gap: 24px;
+}
+
+.team-text {
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.team-text>p {
+    margin-top: 8px;
+}
+
+
+
+.display-flex {
+    display: flex;
+
+}
+
+.team-info-container {
+    padding-top: 72px;
+    gap: 24px;
+}
+
+.header-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.portfolio-pictures-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    gap: 24px;
+}
+
+.portfolio-text {
+    padding: 32px 16px;
+}
+
+.portfolio-text>p {
+    margin-top: 8px;
+}
+
+.footer-container {
+    padding: 100px 150px;
+}
+
+.header-nav {
+    display: flex;
+    margin-left: 36px;
 }
 
 .team-section-title {
@@ -184,4 +345,6 @@ a:active {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
+    padding-top: 16px;
 }
