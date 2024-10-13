@@ -13,8 +13,6 @@ body {
 
 .navigation-logo {
     align-items: center;
-    padding: 24px 0;
-
 }
 
 .logo {
@@ -27,6 +25,10 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    padding: 24px 0;
 }
 
 .section {
