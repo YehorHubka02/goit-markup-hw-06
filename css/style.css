@@ -25,6 +25,7 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .header-container {}
@@ -129,7 +130,6 @@ a {
 
 .header-nav {
     gap: 40px;
-    padding: 24px 0;
 }
 
 .title {
