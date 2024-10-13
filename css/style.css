@@ -13,6 +13,8 @@ body {
 
 .navigation-logo {
     align-items: center;
+    padding: 24px 0;
+
 }
 
 .logo {
@@ -25,6 +27,8 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px;
+
 }
 
 .section {
@@ -63,8 +67,17 @@ h2 {
 }
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .service-container {}
@@ -237,7 +250,7 @@ a:active {
 }
 
 .service-info {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team-text {
@@ -262,10 +275,6 @@ a:active {
     gap: 24px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-}
-
-.header-container {
-    padding: 24px 0;
 }
 
 .portfolio-pictures-container {
@@ -302,8 +311,14 @@ a:active {
     margin-bottom: 72px;
 }
 
+.portfolio-container {
+    border-top: none;
+}
+
 .team-info {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-info-name {
@@ -334,6 +349,8 @@ a:active {
 .row-gap {
     row-gap: 48px;
 }
+
+.portfolio-pictures-element {}
 
 .portfolio-text {
     border: 1px solid #e7e9fc;
