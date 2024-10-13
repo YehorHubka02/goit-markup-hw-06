@@ -25,10 +25,11 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 
-.header-container {}
+.header-container {
+    padding: 24px 0;
+}
 
 .section {
     padding-top: 120px;
