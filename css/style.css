@@ -131,10 +131,6 @@ a {
     gap: 40px;
 }
 
-.header-nav>li {
-    padding: 24px 0;
-}
-
 .title {
     color: #2e2f42;
 }
@@ -352,12 +348,10 @@ a:active {
     row-gap: 48px;
 }
 
-.portfolio-pictures-element {
-    border-top: none;
-}
 
 .portfolio-text {
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-element {
