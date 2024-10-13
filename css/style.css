@@ -27,10 +27,6 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-nav>li {
-    padding: 24px 0;
-}
-
 .header-container {}
 
 .section {
@@ -408,4 +404,8 @@ a:active {
     letter-spacing: 0.02em;
     width: 264px;
     padding-top: 16px;
+}
+
+.header-container {
+    padding: 24px 0;
 }
