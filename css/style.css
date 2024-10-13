@@ -13,7 +13,6 @@ body {
 
 .navigation-logo {
     align-items: center;
-    padding: 24px 0;
 }
 
 .logo {
@@ -28,9 +27,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
-    padding: 24px 0;
-}
+.header-container {}
 
 .section {
     padding-top: 120px;
@@ -132,6 +129,7 @@ a {
 
 .header-nav {
     gap: 40px;
+    padding: 24px 0;
 }
 
 .title {
