@@ -27,7 +27,8 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .section {
@@ -242,7 +243,6 @@ a:active {
 
 .team-container {
     padding: 120px 0px;
-    border-top: none;
 }
 
 .service-info-container {
