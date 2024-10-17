@@ -239,9 +239,7 @@ a:active {
     padding: 120px 0;
 }
 
-.team-container {
-    padding: 120px 0px;
-}
+.team-container {}
 
 .service-info-container {
     gap: 24px;
@@ -265,13 +263,11 @@ a:active {
 
 .display-flex {
     display: flex;
-
+    align-items: center;
 }
 
 .team-info-container {
-    padding-top: 72px;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -290,13 +286,10 @@ a:active {
     margin-top: 8px;
 }
 
-.footer-container {
-    padding: 100px 150px;
-}
+.footer-container {}
 
 .header-nav {
     display: flex;
-    margin-left: 36px;
 }
 
 .team-section-title {
@@ -403,7 +396,6 @@ a:active {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
-    padding-top: 16px;
 }
 
 .navigation-logo {
@@ -412,4 +404,5 @@ a:active {
 
 .header-nav-text {
     padding: 24px 0;
+    display: block;
 }
