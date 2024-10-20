@@ -17,6 +17,20 @@ body {
 
 .logo {
     margin-right: 76px;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-info-pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 img {
@@ -25,6 +39,9 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -133,11 +150,12 @@ a {
 
 .header-active::after {
     content: '';
-    width: 100%;
     display: block;
     height: 4px;
     background-color: #404BBF;
     position: relative;
+    width: 100%;
+    border-radius: 2px;
     position: absolute;
     left: 0;
     bottom: -1px;
