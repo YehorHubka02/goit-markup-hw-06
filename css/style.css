@@ -544,6 +544,10 @@ button {
 }
 
 .team-social-link:hover,
+:focus {
+    background-color: #404bbf;
+}
+
 .team-social-link:focus {
     background-color: #404bbf;
 }
