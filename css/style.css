@@ -705,3 +705,20 @@ button {
     border-radius: 4px;
     padding: 8, 287, 98, 16;
 }
+
+.user-accept {
+    margin-bottom: 24px;
+}
+
+.user-accept-span {
+    display: inline-flex;
+    margin-right: 8px;
+    border: var(--input-border);
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: inherit;
+    fill: transparent;
+    cursor: pointer;
+
+}
