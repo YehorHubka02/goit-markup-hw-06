@@ -829,7 +829,7 @@ button {
     color: #8e8f99;
 }
 
-.contact-checkbox:checked {
+.contact-checkbox:checked+.user-accept-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -846,7 +846,8 @@ button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5 letter-spacing: 0.04em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
