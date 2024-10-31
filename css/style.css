@@ -684,7 +684,7 @@ button {
     border-color: #4D5AE5;
 }
 
-.modal-input:focus svg {
+.modal-input:focus+svg {
     fill: #4D5AE5;
 }
 
@@ -829,7 +829,7 @@ button {
     color: #8e8f99;
 }
 
-.contact-checkbox:checked+.user-accept-span span {
+.contact-checkbox:checked+.user-accept-label>span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
