@@ -829,7 +829,7 @@ button {
     color: #8e8f99;
 }
 
-.contact-checkbox:checked+.user-accept-span {
+.contact-checkbox:checked+.user-accept-span span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
